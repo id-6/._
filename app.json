@@ -2,7 +2,7 @@
 {
   "name": "Boot session ‘",
   "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
-  "logo": "https://telegra.ph/file/1f4e30994f79f7b69e120.jpg",
+  "logo": "https://telegra.ph/file/9c9d5d49b28c28fd25f1b.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -42,7 +42,7 @@
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
       "required": true,
-      "value": "Bethon2"
+      "value": "lxxzxI"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
