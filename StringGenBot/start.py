@@ -21,14 +21,14 @@ async def start(bot: Client, msg: Message):
 
  - ملاحظـة :
 - احـذر مشاركـة الكود لأحـد لأنه يستطيـع اختراق حسـابك ⚠️ .
-المطـور : [سايز](tg://user?id={OWNER_ID}) !""",
+المطـور : إِبْرَاهِيم .](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="- بـدء استخـراج الجلسـة .", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("- قنـاة السـورس .", url="https://t.me/Bethon2"),
+                    InlineKeyboardButton("- قنـاة السـورس .", url="https://t.me/lxxzxI"),
                     InlineKeyboardButton("- المطـور .", user_id=OWNER_ID)
                 ]
             ]
