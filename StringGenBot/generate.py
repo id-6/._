@@ -58,7 +58,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         ty = "بايروجـرام - 𝐩𝐲𝐫𝐨𝐠𝐫𝐚𝐦"
     if is_bot:
         ty += "بوت"
-    await msg.reply(f"**» استخـراج الجلسـة **{ty}** بواسطـة سورس بيثون جـارٍ..**.")
+    await msg.reply(f"**» استخـراج الجلسـة **{ty}** جـارٍ..**.")
     user_id = msg.chat.id
     api_id_msg = await bot.ask(user_id, "**⎆ أرسـل الأيبـي أيـدي الخـاص بـك\n للتخطـي أرسـل /skip ...**", filters=filters.text)
     if await cancelled(api_id_msg):
